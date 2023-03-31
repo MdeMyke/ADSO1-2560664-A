@@ -67,5 +67,44 @@ print(c1.getfechaini())
 
 
 
+class material:
+    def __init__(self,autor,editorial):
+     self.autor=autor
+     self.editorial=editorial
+
+    def getautor(self):
+        return self.autor
+
+    def setautor(self,autor):
+        self.autor=autor
+
+    def geteditorial(self):
+        return self.editorial
+
+    def seteditorial(self,editorial):
+        self.editorial=editorial
+
+class libro(material,reserva):
+    def __init__(self,autor,editorial,fechaini,fechafin,titlibro,tiplibro):
+        material.__init__(self,autor,editorial)
+        pedido.__init__(self,fechaini,fechafin)
+        self.__titlibro=titlibro
+        self.tiplibro=tiplibro
+
+    def gettitlibro(self):
+        return self.__titlibro
+    
+    def gettiplibro(self):
+        return self.s
+
+
+
+
+
+
+            
+
+            
+
 
         
