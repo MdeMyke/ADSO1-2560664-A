@@ -1,0 +1,103 @@
+/*------
+configuracion general del documento
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 22px 0;  
+    background: rgb(223, 219, 219);
+}
+/*configuracion de los elementos del dom
+------------*/
+
+nav{
+    width: 100%;
+    height: 50px;
+    
+}
+h1 {
+    font-size: 28px;
+    line-height: 44px;
+    padding-left: 320px;
+    
+}
+
+
+.encabezado {
+    align-items: center;
+    background: #6b0404;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+}
+nav {
+    margin-top: 140px;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    width: 100%;
+}
+.navegacion {
+    width: 100%;
+    height: 40px;
+    background: rgb(56, 54, 54);
+    align-content: center;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 10px 40px;
+    color: #dfe0d9;
+    font-size: 16px;
+    text-decoration: none;
+}
+.contenido {
+    padding: 44px;
+    margin:0 140px 0 140px;
+    height: 80px;
+}
+.encabezado__contenido{
+    display: flex;
+    position: relative;
+    padding: 44px;
+    background-size: 100%;
+    border-radius: 22px;
+    margin: 100px 140px 0 140px;
+}
+
+.encabezado__contenido h2{
+    display: flex;
+    position: relative;
+    color: rgb(17, 17, 3);
+    z-index: 2;
+    width: 100%;
+}
+
+.encabezado__contenido img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
+}
+
+.parrafo {
+    display: table;
+    margin:0 140px 0 140px;
+    text-align: justify;
+    padding-top: 30px;
+  column-count: 2;
+}
